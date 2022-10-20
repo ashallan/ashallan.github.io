@@ -7,7 +7,7 @@ body {
   background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center; 
   background-size: cover;
   height: 325px;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
 }
