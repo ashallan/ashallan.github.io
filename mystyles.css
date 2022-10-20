@@ -27,7 +27,7 @@ myimg{
 .sidenav {
   height: 100%;
   width: 160px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   top: 50;
   left: 0;
