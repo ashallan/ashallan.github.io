@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: #303030;
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.hero-image {
+  background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center; 
+  background-size: cover;
+  height: 325px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">"The application of GIS is limited only by the imagination of those who use it"</h1>
+    <h3 style="font-style: italic">- Jack Dangermond</h3>
+  </div>
+</div>
+
+</head>
+<style>
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  top: 50;
+  left: 0;
+  background-color: #212020;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #b4b4b4;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ff9147;
+}
+  
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  color: #b4b4b4;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="https://ashallan.github.io/index.html">About Me</a>
+  <a href="https://ashallan.github.io/skills.html">Skills</a>
+  <a href="https://ashallan.github.io/projects.html">Projects</a>
+  <a href="https://ashallan.github.io/contact.html">Contact</a>
+</div>
