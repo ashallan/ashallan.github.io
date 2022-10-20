@@ -17,6 +17,9 @@ body {
   transform: translate(-50%, -50%);
   color: #ffffff;
 }
+* {
+  box-sizing: border-box;
+}
 .sidenav {
   height: 100%;
   width: 160px;
