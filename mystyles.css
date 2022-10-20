@@ -7,7 +7,7 @@ body {
   background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center; 
   background-size: cover;
   height: 325px;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
 }
@@ -22,7 +22,7 @@ body {
 .sidenav {
   height: 100%;
   width: 160px;
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 50;
   left: 0;
