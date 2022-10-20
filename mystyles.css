@@ -24,7 +24,7 @@ body {
   width: 160px;
   position: fixed;
   z-index: 1;
-  top: 50;
+  top: 0;
   left: 0;
   background-color: #212020;
   overflow-x: hidden;
