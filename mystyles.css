@@ -19,15 +19,12 @@ body {
   transform: translate(-50%, -50%);
   color: #ffffff;
 }
-* {
-  box-sizing: border-box;
-}
 .sidenav {
   height: 100%;
   width: 160px;
-  position: absolute;
+  position: fixed;
   z-index: 1;
-  top: 325;
+  top: 0;
   left: 0;
   background-color: #212020;
   overflow-x: hidden;
@@ -47,10 +44,6 @@ body {
   margin-left: 160px;
   color: #b4b4b4;
   padding: 10px;
-}
-@media screen and (max-height: 325px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
 h1{
   font-size: 50px;
