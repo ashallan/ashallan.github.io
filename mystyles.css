@@ -8,6 +8,8 @@ body {
   background-size: cover;
   height: 325px;
   position: relative;
+  top: 0;
+  left: 0;
 }
 .hero-text {
   text-align: center;
@@ -25,7 +27,7 @@ body {
   width: 160px;
   position: absolute;
   z-index: 1;
-  top: 50;
+  top: 325;
   left: 0;
   background-color: #212020;
   overflow-x: hidden;
@@ -41,12 +43,12 @@ body {
 .sidenav a:hover {
   color: #ff9147;
 } 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+.content {
+  margin-left: 160px;
   color: #b4b4b4;
-  padding: 0px 10px;
+  padding: 10px;
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 325px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
